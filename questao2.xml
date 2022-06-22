@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<campeonato>
+    <times>
+        <time>
+            <nome>São Paulo</nome>
+            <jogadores>
+                <jogador>
+                    <nome>Luis Fabiano</nome>
+                    <posicao>Atacante</posicao>
+                </jogador>
+
+                <jogador>
+                    <nome>Rogerio Ceni</nome>
+                    <posicao>Goleiro</posicao>
+                </jogador>
+
+                <jogador>
+                    <nome>Maike</nome>
+                    <posicao>Meio de Campo</posicao>
+                </jogador>
+            </jogadores>
+        </time>
+
+        <time>
+            <nome>Flamengo</nome>
+            <jogadores>
+                <jogador>
+                    <nome>Gabi Gol</nome>
+                    <posicao>Atacante</posicao>
+                </jogador>
+
+                <jogador>
+                    <nome>Fernando</nome>
+                    <posicao>Goleiro</posicao>
+                </jogador>
+
+                <jogador>
+                    <nome>Davi Silva</nome>
+                    <posicao>Meio de Campo</posicao>
+                </jogador>
+            </jogadores>
+        </time>
+
+    </times>
+</campeonato>

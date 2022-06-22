@@ -1,0 +1,80 @@
+{
+    "campeonato": {
+        "times": [
+            {
+                "time": [
+                    {
+                        "nome": [
+                            "São Paulo"
+                        ],
+                        "jogadores": [
+                            {
+                                "jogador": [
+                                    {
+                                        "nome": [
+                                            "Luis Fabiano"
+                                        ],
+                                        "posicao": [
+                                            "Atacante"
+                                        ]
+                                    },
+                                    {
+                                        "nome": [
+                                            "Rogerio Ceni"
+                                        ],
+                                        "posicao": [
+                                            "Goleiro"
+                                        ]
+                                    },
+                                    {
+                                        "nome": [
+                                            "Maike"
+                                        ],
+                                        "posicao": [
+                                            "Meio de Campo"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nome": [
+                            "Flamengo"
+                        ],
+                        "jogadores": [
+                            {
+                                "jogador": [
+                                    {
+                                        "nome": [
+                                            "Gabi Gol"
+                                        ],
+                                        "posicao": [
+                                            "Atacante"
+                                        ]
+                                    },
+                                    {
+                                        "nome": [
+                                            "Fernando"
+                                        ],
+                                        "posicao": [
+                                            "Goleiro"
+                                        ]
+                                    },
+                                    {
+                                        "nome": [
+                                            "Davi Silva"
+                                        ],
+                                        "posicao": [
+                                            "Meio de Campo"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

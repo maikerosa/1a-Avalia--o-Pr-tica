@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE catalogo [
+    <!ELEMENT catalogo (filme*)>
+    <!ELEMENT filme (titulo, produtores, atores?)>
+    <!ATTLIST filme ano CDATA #IMPLIED>
+    <!ELEMENT titulo (titulo_original? | titulo_portugues?)>
+    <!ELEMENT titulo_original (#PCDATA)>
+    <!ELEMENT titulo_portugues (#PCDATA)>
+    <!ELEMENT produtores (produtor+)>
+    <!ELEMENT produtor (#PCDATA)>
+    <!ELEMENT atores (ator*)>
+    <!ELEMENT ator (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT linguagem (#PCDATA)>
+
+]>
+
+<catalogo>
+    <filme ano="2022">
+        <titulo>
+            <titulo_original>Livro X</titulo_original>
+        </titulo>
+        <produtores>
+            <produtor>
+                Produtora Padrão
+            </produtor>
+        </produtores>
+        <atores>
+            <ator>Maike</ator>
+            <ator>JV</ator>
+        </atores>
+    </filme>
+
+    <filme ano="2022">
+        <titulo>
+            <titulo_original>Livro Y</titulo_original>
+        </titulo>
+        <produtores>
+            <produtor>
+                Produtora Não Padrão
+            </produtor>
+        </produtores>
+        <atores>
+            <ator>Lucas</ator>
+            <ator>maisa</ator>
+        </atores>
+    </filme>
+</catalogo>
